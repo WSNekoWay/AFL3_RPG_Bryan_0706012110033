@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PixelOperator-Bold.ttf</string>
+		<string>PixelOperator.ttf</string>
+		<string>PixelOperator8-Bold.ttf</string>
+		<string>PixelOperator8.ttf</string>
+		<string>PixelOperatorHB.ttf</string>
+		<string>PixelOperatorHB8.ttf</string>
+		<string>PixelOperatorHBSC.ttf</string>
+		<string>PixelOperatorMono-Bold.ttf</string>
+		<string>PixelOperatorMono.ttf</string>
+		<string>PixelOperatorMono8-Bold.ttf</string>
+		<string>PixelOperatorMono8.ttf</string>
+		<string>PixelOperatorMonoHB.ttf</string>
+		<string>PixelOperatorMonoHB8.ttf</string>
+		<string>PixelOperatorSC-Bold.ttf</string>
+		<string>PixelOperatorSC.ttf</string>
+	</array>
+</dict>
+</plist>

@@ -11,6 +11,42 @@
 		042777B329F912990004DC7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777B229F912990004DC7E /* ContentView.swift */; };
 		042777B529F9129A0004DC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042777B429F9129A0004DC7E /* Assets.xcassets */; };
 		042777B829F9129A0004DC7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042777B729F9129A0004DC7E /* Preview Assets.xcassets */; };
+		042777BF29F947990004DC7E /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777BE29F947990004DC7E /* SplashScreenView.swift */; };
+		042777D029F96F680004DC7E /* PixelOperatorMono8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777CB29F96F410004DC7E /* PixelOperatorMono8.ttf */; };
+		042777D129F96F680004DC7E /* PixelOperator8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777C329F96F410004DC7E /* PixelOperator8.ttf */; };
+		042777D229F96F680004DC7E /* PixelOperatorHBSC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777CC29F96F410004DC7E /* PixelOperatorHBSC.ttf */; };
+		042777D329F96F680004DC7E /* PixelOperatorHB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777CE29F96F420004DC7E /* PixelOperatorHB.ttf */; };
+		042777D429F96F680004DC7E /* PixelOperatorMonoHB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777C929F96F410004DC7E /* PixelOperatorMonoHB.ttf */; };
+		042777D529F96F680004DC7E /* PixelOperatorSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777CF29F96F420004DC7E /* PixelOperatorSC-Bold.ttf */; };
+		042777D629F96F680004DC7E /* PixelOperatorMonoHB8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777C429F96F410004DC7E /* PixelOperatorMonoHB8.ttf */; };
+		042777D729F96F680004DC7E /* PixelOperatorSC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777C529F96F410004DC7E /* PixelOperatorSC.ttf */; };
+		042777D829F96F680004DC7E /* PixelOperator8-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777CA29F96F410004DC7E /* PixelOperator8-Bold.ttf */; };
+		042777D929F96F680004DC7E /* PixelOperatorMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777C629F96F410004DC7E /* PixelOperatorMono.ttf */; };
+		042777DA29F96F690004DC7E /* PixelOperatorMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777C229F96F410004DC7E /* PixelOperatorMono-Bold.ttf */; };
+		042777DB29F96F690004DC7E /* PixelOperatorMono8-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777C729F96F410004DC7E /* PixelOperatorMono8-Bold.ttf */; };
+		042777DC29F96F690004DC7E /* PixelOperatorHB8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777C829F96F410004DC7E /* PixelOperatorHB8.ttf */; };
+		042777DD29F96F690004DC7E /* PixelOperator.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777C129F96F410004DC7E /* PixelOperator.ttf */; };
+		042777DE29F96F690004DC7E /* PixelOperator-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042777CD29F96F420004DC7E /* PixelOperator-Bold.ttf */; };
+		042777E229FA4DE60004DC7E /* PrologueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777E129FA4DE60004DC7E /* PrologueView.swift */; };
+		042777E429FA69590004DC7E /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777E329FA69590004DC7E /* PlayView.swift */; };
+		042777F929FAAD110004DC7E /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777F829FAAD110004DC7E /* ActionView.swift */; };
+		042777FB29FAAD1B0004DC7E /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777FA29FAAD1B0004DC7E /* InventoryView.swift */; };
+		042777FD29FAAD390004DC7E /* ConsumableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777FC29FAAD390004DC7E /* ConsumableRow.swift */; };
+		042777FF29FAAD4D0004DC7E /* ConsumableDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777FE29FAAD4D0004DC7E /* ConsumableDetail.swift */; };
+		0427780129FAAE7E0004DC7E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427780029FAAE7E0004DC7E /* Item.swift */; };
+		0427780529FAAEAF0004DC7E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427780429FAAEAF0004DC7E /* Player.swift */; };
+		0427780729FAAEE60004DC7E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427780629FAAEE60004DC7E /* MenuView.swift */; };
+		0427780C29FACC120004DC7E /* ConsumableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427780B29FACC120004DC7E /* ConsumableView.swift */; };
+		0427780E29FACC1F0004DC7E /* EquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427780D29FACC1F0004DC7E /* EquipmentView.swift */; };
+		0427781229FAD5F10004DC7E /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427781129FAD5F10004DC7E /* Equipment.swift */; };
+		0427781429FAD5FC0004DC7E /* Consumable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427781329FAD5FC0004DC7E /* Consumable.swift */; };
+		0427781829FADFA40004DC7E /* EquipmentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427781729FADFA40004DC7E /* EquipmentDetail.swift */; };
+		0427781A29FADFAE0004DC7E /* EquipmentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427781929FADFAE0004DC7E /* EquipmentRow.swift */; };
+		0427781D29FAE1150004DC7E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427781C29FAE1150004DC7E /* CircleImage.swift */; };
+		0427781F29FAE1250004DC7E /* EquipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427781E29FAE1250004DC7E /* EquipButton.swift */; };
+		0427782029FAE7850004DC7E /* consumableData.json in Resources */ = {isa = PBXBuildFile; fileRef = 042777E729FA6BFD0004DC7E /* consumableData.json */; };
+		0427782129FAE78C0004DC7E /* equipmentData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0427780F29FAD5CC0004DC7E /* equipmentData.json */; };
+		0427782229FAE7910004DC7E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427780229FAAE9E0004DC7E /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +55,43 @@
 		042777B229F912990004DC7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		042777B429F9129A0004DC7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042777B729F9129A0004DC7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		042777BE29F947990004DC7E /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		042777C129F96F410004DC7E /* PixelOperator.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperator.ttf; sourceTree = "<group>"; };
+		042777C229F96F410004DC7E /* PixelOperatorMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelOperatorMono-Bold.ttf"; sourceTree = "<group>"; };
+		042777C329F96F410004DC7E /* PixelOperator8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperator8.ttf; sourceTree = "<group>"; };
+		042777C429F96F410004DC7E /* PixelOperatorMonoHB8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperatorMonoHB8.ttf; sourceTree = "<group>"; };
+		042777C529F96F410004DC7E /* PixelOperatorSC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperatorSC.ttf; sourceTree = "<group>"; };
+		042777C629F96F410004DC7E /* PixelOperatorMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperatorMono.ttf; sourceTree = "<group>"; };
+		042777C729F96F410004DC7E /* PixelOperatorMono8-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelOperatorMono8-Bold.ttf"; sourceTree = "<group>"; };
+		042777C829F96F410004DC7E /* PixelOperatorHB8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperatorHB8.ttf; sourceTree = "<group>"; };
+		042777C929F96F410004DC7E /* PixelOperatorMonoHB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperatorMonoHB.ttf; sourceTree = "<group>"; };
+		042777CA29F96F410004DC7E /* PixelOperator8-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelOperator8-Bold.ttf"; sourceTree = "<group>"; };
+		042777CB29F96F410004DC7E /* PixelOperatorMono8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperatorMono8.ttf; sourceTree = "<group>"; };
+		042777CC29F96F410004DC7E /* PixelOperatorHBSC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperatorHBSC.ttf; sourceTree = "<group>"; };
+		042777CD29F96F420004DC7E /* PixelOperator-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelOperator-Bold.ttf"; sourceTree = "<group>"; };
+		042777CE29F96F420004DC7E /* PixelOperatorHB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperatorHB.ttf; sourceTree = "<group>"; };
+		042777CF29F96F420004DC7E /* PixelOperatorSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelOperatorSC-Bold.ttf"; sourceTree = "<group>"; };
+		042777DF29F970E20004DC7E /* AFL3-RPG-Bryan-0706012110033-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AFL3-RPG-Bryan-0706012110033-Info.plist"; sourceTree = SOURCE_ROOT; };
+		042777E129FA4DE60004DC7E /* PrologueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrologueView.swift; sourceTree = "<group>"; };
+		042777E329FA69590004DC7E /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		042777E729FA6BFD0004DC7E /* consumableData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = consumableData.json; sourceTree = "<group>"; };
+		042777F829FAAD110004DC7E /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		042777FA29FAAD1B0004DC7E /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		042777FC29FAAD390004DC7E /* ConsumableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumableRow.swift; sourceTree = "<group>"; };
+		042777FE29FAAD4D0004DC7E /* ConsumableDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumableDetail.swift; sourceTree = "<group>"; };
+		0427780029FAAE7E0004DC7E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0427780229FAAE9E0004DC7E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0427780429FAAEAF0004DC7E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0427780629FAAEE60004DC7E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		0427780B29FACC120004DC7E /* ConsumableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumableView.swift; sourceTree = "<group>"; };
+		0427780D29FACC1F0004DC7E /* EquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentView.swift; sourceTree = "<group>"; };
+		0427780F29FAD5CC0004DC7E /* equipmentData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = equipmentData.json; sourceTree = "<group>"; };
+		0427781129FAD5F10004DC7E /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		0427781329FAD5FC0004DC7E /* Consumable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consumable.swift; sourceTree = "<group>"; };
+		0427781729FADFA40004DC7E /* EquipmentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDetail.swift; sourceTree = "<group>"; };
+		0427781929FADFAE0004DC7E /* EquipmentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentRow.swift; sourceTree = "<group>"; };
+		0427781C29FAE1150004DC7E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0427781E29FAE1250004DC7E /* EquipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +124,15 @@
 		042777AF29F912990004DC7E /* AFL3_RPG_Bryan_0706012110033 */ = {
 			isa = PBXGroup;
 			children = (
+				042777DF29F970E20004DC7E /* AFL3-RPG-Bryan-0706012110033-Info.plist */,
 				042777B029F912990004DC7E /* AFL3_RPG_Bryan_0706012110033App.swift */,
 				042777B229F912990004DC7E /* ContentView.swift */,
+				042777E529FA6B470004DC7E /* Resources */,
+				042777E629FA6B560004DC7E /* Model */,
+				042777F329FA6CCD0004DC7E /* Controller */,
+				042777E029F9724C0004DC7E /* View */,
+				0427781B29FAE0E00004DC7E /* Helpers */,
+				042777C029F96F110004DC7E /* Font */,
 				042777B429F9129A0004DC7E /* Assets.xcassets */,
 				042777B629F9129A0004DC7E /* Preview Content */,
 			);
@@ -65,6 +145,100 @@
 				042777B729F9129A0004DC7E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		042777C029F96F110004DC7E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				042777CD29F96F420004DC7E /* PixelOperator-Bold.ttf */,
+				042777C129F96F410004DC7E /* PixelOperator.ttf */,
+				042777CA29F96F410004DC7E /* PixelOperator8-Bold.ttf */,
+				042777C329F96F410004DC7E /* PixelOperator8.ttf */,
+				042777CE29F96F420004DC7E /* PixelOperatorHB.ttf */,
+				042777C829F96F410004DC7E /* PixelOperatorHB8.ttf */,
+				042777CC29F96F410004DC7E /* PixelOperatorHBSC.ttf */,
+				042777C229F96F410004DC7E /* PixelOperatorMono-Bold.ttf */,
+				042777C629F96F410004DC7E /* PixelOperatorMono.ttf */,
+				042777C729F96F410004DC7E /* PixelOperatorMono8-Bold.ttf */,
+				042777CB29F96F410004DC7E /* PixelOperatorMono8.ttf */,
+				042777C929F96F410004DC7E /* PixelOperatorMonoHB.ttf */,
+				042777C429F96F410004DC7E /* PixelOperatorMonoHB8.ttf */,
+				042777CF29F96F420004DC7E /* PixelOperatorSC-Bold.ttf */,
+				042777C529F96F410004DC7E /* PixelOperatorSC.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		042777E029F9724C0004DC7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042777BE29F947990004DC7E /* SplashScreenView.swift */,
+				042777E129FA4DE60004DC7E /* PrologueView.swift */,
+				042777E329FA69590004DC7E /* PlayView.swift */,
+				042777F829FAAD110004DC7E /* ActionView.swift */,
+				042777FA29FAAD1B0004DC7E /* InventoryView.swift */,
+				0427780629FAAEE60004DC7E /* MenuView.swift */,
+				0427781629FADF900004DC7E /* Equipment */,
+				0427781529FADF810004DC7E /* Consumable */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042777E529FA6B470004DC7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				042777E729FA6BFD0004DC7E /* consumableData.json */,
+				0427780F29FAD5CC0004DC7E /* equipmentData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		042777E629FA6B560004DC7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0427780029FAAE7E0004DC7E /* Item.swift */,
+				0427780229FAAE9E0004DC7E /* ModelData.swift */,
+				0427780429FAAEAF0004DC7E /* Player.swift */,
+				0427781129FAD5F10004DC7E /* Equipment.swift */,
+				0427781329FAD5FC0004DC7E /* Consumable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042777F329FA6CCD0004DC7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0427781529FADF810004DC7E /* Consumable */ = {
+			isa = PBXGroup;
+			children = (
+				0427780B29FACC120004DC7E /* ConsumableView.swift */,
+				042777FE29FAAD4D0004DC7E /* ConsumableDetail.swift */,
+				042777FC29FAAD390004DC7E /* ConsumableRow.swift */,
+			);
+			path = Consumable;
+			sourceTree = "<group>";
+		};
+		0427781629FADF900004DC7E /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				0427780D29FACC1F0004DC7E /* EquipmentView.swift */,
+				0427781729FADFA40004DC7E /* EquipmentDetail.swift */,
+				0427781929FADFAE0004DC7E /* EquipmentRow.swift */,
+			);
+			path = Equipment;
+			sourceTree = "<group>";
+		};
+		0427781B29FAE0E00004DC7E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0427781C29FAE1150004DC7E /* CircleImage.swift */,
+				0427781E29FAE1250004DC7E /* EquipButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +299,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042777DC29F96F690004DC7E /* PixelOperatorHB8.ttf in Resources */,
+				042777D429F96F680004DC7E /* PixelOperatorMonoHB.ttf in Resources */,
+				042777D729F96F680004DC7E /* PixelOperatorSC.ttf in Resources */,
+				042777D129F96F680004DC7E /* PixelOperator8.ttf in Resources */,
 				042777B829F9129A0004DC7E /* Preview Assets.xcassets in Resources */,
+				042777D929F96F680004DC7E /* PixelOperatorMono.ttf in Resources */,
+				042777D829F96F680004DC7E /* PixelOperator8-Bold.ttf in Resources */,
+				042777D229F96F680004DC7E /* PixelOperatorHBSC.ttf in Resources */,
+				0427782029FAE7850004DC7E /* consumableData.json in Resources */,
+				0427782129FAE78C0004DC7E /* equipmentData.json in Resources */,
+				042777D329F96F680004DC7E /* PixelOperatorHB.ttf in Resources */,
+				042777D629F96F680004DC7E /* PixelOperatorMonoHB8.ttf in Resources */,
 				042777B529F9129A0004DC7E /* Assets.xcassets in Resources */,
+				042777DD29F96F690004DC7E /* PixelOperator.ttf in Resources */,
+				042777DB29F96F690004DC7E /* PixelOperatorMono8-Bold.ttf in Resources */,
+				042777DE29F96F690004DC7E /* PixelOperator-Bold.ttf in Resources */,
+				042777D529F96F680004DC7E /* PixelOperatorSC-Bold.ttf in Resources */,
+				042777D029F96F680004DC7E /* PixelOperatorMono8.ttf in Resources */,
+				042777DA29F96F690004DC7E /* PixelOperatorMono-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +329,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				042777B329F912990004DC7E /* ContentView.swift in Sources */,
+				0427780E29FACC1F0004DC7E /* EquipmentView.swift in Sources */,
+				0427781A29FADFAE0004DC7E /* EquipmentRow.swift in Sources */,
+				0427780C29FACC120004DC7E /* ConsumableView.swift in Sources */,
+				042777E229FA4DE60004DC7E /* PrologueView.swift in Sources */,
 				042777B129F912990004DC7E /* AFL3_RPG_Bryan_0706012110033App.swift in Sources */,
+				042777E429FA69590004DC7E /* PlayView.swift in Sources */,
+				042777FD29FAAD390004DC7E /* ConsumableRow.swift in Sources */,
+				0427781229FAD5F10004DC7E /* Equipment.swift in Sources */,
+				0427780529FAAEAF0004DC7E /* Player.swift in Sources */,
+				0427780729FAAEE60004DC7E /* MenuView.swift in Sources */,
+				0427781429FAD5FC0004DC7E /* Consumable.swift in Sources */,
+				0427780129FAAE7E0004DC7E /* Item.swift in Sources */,
+				042777BF29F947990004DC7E /* SplashScreenView.swift in Sources */,
+				0427781F29FAE1250004DC7E /* EquipButton.swift in Sources */,
+				042777FF29FAAD4D0004DC7E /* ConsumableDetail.swift in Sources */,
+				042777F929FAAD110004DC7E /* ActionView.swift in Sources */,
+				0427781D29FAE1150004DC7E /* CircleImage.swift in Sources */,
+				042777FB29FAAD1B0004DC7E /* InventoryView.swift in Sources */,
+				0427781829FADFA40004DC7E /* EquipmentDetail.swift in Sources */,
+				0427782229FAE7910004DC7E /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +480,7 @@
 				DEVELOPMENT_TEAM = 64HTLCWMUT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AFL3-RPG-Bryan-0706012110033-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +510,7 @@
 				DEVELOPMENT_TEAM = 64HTLCWMUT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AFL3-RPG-Bryan-0706012110033-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

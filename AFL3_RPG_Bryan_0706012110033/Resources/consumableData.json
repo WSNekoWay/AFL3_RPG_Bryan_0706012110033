@@ -1,0 +1,29 @@
+
+[
+    {
+       
+        
+        "name": "Potion",
+        "type": "Potion",
+        "effect": "Heal",
+        "value": 20,
+        "id": 1001,
+        "owned": 20,
+        "price": 10,
+        "description": "It can heal your HP for around 20 Health Points",
+        "imageName": "Potion"
+        
+    },
+    {
+        "name": "Elixir",
+        "type": "Elixir",
+        "effect": "Mana Recovery",
+        "value": 20,
+        "id": 1002,
+        "owned": 20,
+        "price": 10,
+        "description": "It can restore your MP for around 20 Mana Points",
+        "imageName": "Elixir"
+    }
+    
+]

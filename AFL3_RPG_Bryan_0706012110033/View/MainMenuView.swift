@@ -1,18 +1,15 @@
 //
-//  ContentView.swift
+//  MainMenuView.swift
 //  AFL3_RPG_Bryan_0706012110033
 //
-//  Created by MacBook Pro on 26/04/23.
+//  Created by MacBook Pro on 27/04/23.
 //
 
 import SwiftUI
 
-//This is content view to give user splash screen and menu to play and quit which play will bring user into prologueview
-struct ContentView: View {
-    @State private var showSplash = true
+struct MainMenuView: View {
     @State private var isShowingConfirmation = false
-    @EnvironmentObject var modelData: ModelData
-    
+    @Binding var isShowSplash: Bool
     var body: some View {
         NavigationView {
             ZStack {
@@ -66,33 +63,11 @@ struct ContentView: View {
                         exit(0)
                     }, secondaryButton: .cancel())
                 }
-                .padding()
-                .opacity(showSplash ? 0 : 1)
-                .animation(.easeOut(duration: 0.5).delay(0.5))
                 
-                if showSplash {
-                    SplashScreen()
-                    .onAppear {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                    withAnimation {
-                        showSplash = false
-                        }
-                        }
-                        }
-                }
+                .padding()
+                .animation(.easeOut(duration: 0.5).delay(0.5))
             }
         }
-        .accentColor(.white)
-    }
-}
-
-
-
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            .environmentObject(ModelData())
-    }
+        }
 }
 
