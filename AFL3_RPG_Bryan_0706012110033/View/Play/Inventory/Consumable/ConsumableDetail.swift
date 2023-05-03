@@ -8,18 +8,16 @@
 import SwiftUI
 //this is consumable detail
 struct ConsumableDetail: View {
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var player: Player
     var consumable: ConsumableItem
 
     var consumableIndex: Int {
-        modelData.consumables.firstIndex(where: { $0.id == consumable.id })!
+        player.consumables.firstIndex(where: { $0.id == consumable.id })!
     }
 
     var filteredConsumable: [ConsumableItem] {
-        modelData.consumables.filter { $0.type == consumable.type }
+        player.consumables.filter { $0.type == consumable.type }
     }
-
-
 
     var body: some View {
         ScrollView {
@@ -35,44 +33,52 @@ struct ConsumableDetail: View {
             VStack(alignment: .leading) {
                 HStack {
                     Text(consumable.name)
-                        .font(.title)
-
+                        .font(.custom("PixelOperator", size: 40))
+                        .foregroundColor(.white)
 
                 }
 
                 HStack {
                     Text(consumable.type)
+                        .font(.custom("PixelOperator", size: 20))
+                        .foregroundColor(.gray)
                     Spacer()
                     Text("Owned: \(consumable.owned) x")
+                        .font(.custom("PixelOperator", size: 20))
+                        .foregroundColor(.gray)
                 }
                 .font(.subheadline)
-                .foregroundColor(.secondary)
 
                 Divider()
+                    .background(Color.gray)
 
                 Text("About \(consumable.name)")
-                    .font(.title2)
+                    .font(.custom("PixelOperator", size: 28))
+                    .foregroundColor(.white)
                 Text(consumable.description)
                     .padding(.bottom,10)
-                Text("Value Added: \(consumable.value)")
-
+                    .font(.custom("PixelOperator", size: 20))
+                    .foregroundColor(.white)
+                Text("Value Added : \(consumable.value)")
+                    .font(.custom("PixelOperator", size: 20))
+                    .foregroundColor(.white)
                 Text("Price: \(consumable.price)")
-
+                    .font(.custom("PixelOperator", size: 20))
+                    .foregroundColor(.white)
             }
             .padding()
         }
         .navigationTitle(consumable.name)
         .navigationBarTitleDisplayMode(.inline)
+        .background(Color.black)
     }
 }
 
-
-
 struct ConsumableDetail_Previews: PreviewProvider {
-    static let modelData = ModelData()
+    static let player = Player(name: "WanSen")
 
     static var previews: some View {
-        ConsumableDetail(consumable: modelData.consumables[0])
-                .environmentObject(modelData)
+        ConsumableDetail(consumable: player.consumables[0])
+                .environmentObject(player)
     }
 }

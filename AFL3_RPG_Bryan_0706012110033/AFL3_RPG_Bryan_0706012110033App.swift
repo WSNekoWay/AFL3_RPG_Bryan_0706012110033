@@ -9,12 +9,11 @@ import SwiftUI
 
 @main
 struct AFL3_RPG_Bryan_0706012110033App: App {
-    @StateObject private var modelData = ModelData()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(modelData)
+                .environmentObject(EnemyData())
         }
     }
 }

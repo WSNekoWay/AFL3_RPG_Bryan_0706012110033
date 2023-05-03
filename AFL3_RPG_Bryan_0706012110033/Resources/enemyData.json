@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Forest Troll",
+        "type": "Troll",
+        "health": 1000,
+        "maxHealth": 1000,
+        "imageName": "troll"
+    },
+    {
+        "name": "Mountain Golem",
+        "type": "Golem",
+        "health": 1000,
+        "maxHealth": 1000,
+        "imageName": "golem"
+    },
+]

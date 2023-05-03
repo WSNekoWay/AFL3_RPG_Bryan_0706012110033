@@ -73,7 +73,7 @@
             "damage": 750,
             "id": 1009,
             "equipped": false,
-            "owned": 1,
+            "owned": 0,
             "price": 1000,
             "description": "The legendary helmet",
             "imageName": "legendaryhelm"

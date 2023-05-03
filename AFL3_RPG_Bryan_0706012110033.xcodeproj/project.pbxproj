@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04223FE329FD8626006DE980 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223FE229FD8626006DE980 /* Material.swift */; };
+		04223FEB29FD8B5F006DE980 /* materialData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04223FEA29FD8B5F006DE980 /* materialData.json */; };
+		04223FEE29FD8C10006DE980 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223FED29FD8C10006DE980 /* MaterialView.swift */; };
+		04223FF029FD8C1F006DE980 /* MaterialDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223FEF29FD8C1F006DE980 /* MaterialDetail.swift */; };
+		04223FF229FD8C2A006DE980 /* MaterialRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223FF129FD8C2A006DE980 /* MaterialRow.swift */; };
+		04223FFA29FE49E8006DE980 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223FF929FE49E8006DE980 /* Character.swift */; };
+		04223FFC29FE49F6006DE980 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223FFB29FE49F6006DE980 /* Enemy.swift */; };
+		0422400029FEAB65006DE980 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223FFF29FEAB65006DE980 /* NameView.swift */; };
+		0422400229FEBE8F006DE980 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422400129FEBE8F006DE980 /* StatusView.swift */; };
+		0422400629FEBEF6006DE980 /* ConsumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422400529FEBEF6006DE980 /* ConsumeView.swift */; };
+		0422400829FEBF13006DE980 /* BattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422400729FEBF13006DE980 /* BattleView.swift */; };
+		0422400C29FEC27A006DE980 /* EnemyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422400B29FEC27A006DE980 /* EnemyData.swift */; };
+		0422400E29FEC500006DE980 /* enemyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0422400D29FEC500006DE980 /* enemyData.json */; };
+		0422401029FFE657006DE980 /* StatusBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422400F29FFE657006DE980 /* StatusBars.swift */; };
+		0422401229FFED2D006DE980 /* HealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422401129FFED2D006DE980 /* HealView.swift */; };
+		0422401429FFED48006DE980 /* RestoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422401329FFED48006DE980 /* RestoreView.swift */; };
+		042240172A000B40006DE980 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042240162A000B40006DE980 /* Toast.swift */; };
+		042240192A00CB16006DE980 /* EnemyStatusBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042240182A00CB16006DE980 /* EnemyStatusBars.swift */; };
+		0422401B2A028978006DE980 /* AttackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422401A2A028978006DE980 /* AttackView.swift */; };
 		042777B129F912990004DC7E /* AFL3_RPG_Bryan_0706012110033App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777B029F912990004DC7E /* AFL3_RPG_Bryan_0706012110033App.swift */; };
 		042777B329F912990004DC7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042777B229F912990004DC7E /* ContentView.swift */; };
 		042777B529F9129A0004DC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042777B429F9129A0004DC7E /* Assets.xcassets */; };
@@ -46,10 +65,28 @@
 		0427781F29FAE1250004DC7E /* EquipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427781E29FAE1250004DC7E /* EquipButton.swift */; };
 		0427782029FAE7850004DC7E /* consumableData.json in Resources */ = {isa = PBXBuildFile; fileRef = 042777E729FA6BFD0004DC7E /* consumableData.json */; };
 		0427782129FAE78C0004DC7E /* equipmentData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0427780F29FAD5CC0004DC7E /* equipmentData.json */; };
-		0427782229FAE7910004DC7E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427780229FAAE9E0004DC7E /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04223FE229FD8626006DE980 /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		04223FEA29FD8B5F006DE980 /* materialData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = materialData.json; sourceTree = "<group>"; };
+		04223FED29FD8C10006DE980 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		04223FEF29FD8C1F006DE980 /* MaterialDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialDetail.swift; sourceTree = "<group>"; };
+		04223FF129FD8C2A006DE980 /* MaterialRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialRow.swift; sourceTree = "<group>"; };
+		04223FF929FE49E8006DE980 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		04223FFB29FE49F6006DE980 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		04223FFF29FEAB65006DE980 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		0422400129FEBE8F006DE980 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		0422400529FEBEF6006DE980 /* ConsumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumeView.swift; sourceTree = "<group>"; };
+		0422400729FEBF13006DE980 /* BattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleView.swift; sourceTree = "<group>"; };
+		0422400B29FEC27A006DE980 /* EnemyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyData.swift; sourceTree = "<group>"; };
+		0422400D29FEC500006DE980 /* enemyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = enemyData.json; sourceTree = "<group>"; };
+		0422400F29FFE657006DE980 /* StatusBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBars.swift; sourceTree = "<group>"; };
+		0422401129FFED2D006DE980 /* HealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealView.swift; sourceTree = "<group>"; };
+		0422401329FFED48006DE980 /* RestoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreView.swift; sourceTree = "<group>"; };
+		042240162A000B40006DE980 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		042240182A00CB16006DE980 /* EnemyStatusBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyStatusBars.swift; sourceTree = "<group>"; };
+		0422401A2A028978006DE980 /* AttackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackView.swift; sourceTree = "<group>"; };
 		042777AD29F912990004DC7E /* AFL3_RPG_Bryan_0706012110033.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFL3_RPG_Bryan_0706012110033.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042777B029F912990004DC7E /* AFL3_RPG_Bryan_0706012110033App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_RPG_Bryan_0706012110033App.swift; sourceTree = "<group>"; };
 		042777B229F912990004DC7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,7 +117,6 @@
 		042777FC29FAAD390004DC7E /* ConsumableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumableRow.swift; sourceTree = "<group>"; };
 		042777FE29FAAD4D0004DC7E /* ConsumableDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumableDetail.swift; sourceTree = "<group>"; };
 		0427780029FAAE7E0004DC7E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		0427780229FAAE9E0004DC7E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		0427780429FAAEAF0004DC7E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		0427780629FAAEE60004DC7E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0427780B29FACC120004DC7E /* ConsumableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumableView.swift; sourceTree = "<group>"; };
@@ -105,6 +141,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04223FDE29FD5885006DE980 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				042777E129FA4DE60004DC7E /* PrologueView.swift */,
+				04223FFF29FEAB65006DE980 /* NameView.swift */,
+				042777E329FA69590004DC7E /* PlayView.swift */,
+				0427780629FAAEE60004DC7E /* MenuView.swift */,
+				0422400429FEBEC2006DE980 /* Action */,
+				0422400329FEBEA1006DE980 /* Inventory */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		04223FDF29FD58AE006DE980 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				042777BE29F947990004DC7E /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		04223FEC29FD8BFD006DE980 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				04223FED29FD8C10006DE980 /* MaterialView.swift */,
+				04223FEF29FD8C1F006DE980 /* MaterialDetail.swift */,
+				04223FF129FD8C2A006DE980 /* MaterialRow.swift */,
+			);
+			path = Material;
+			sourceTree = "<group>";
+		};
+		0422400329FEBEA1006DE980 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				042777FA29FAAD1B0004DC7E /* InventoryView.swift */,
+				0427781629FADF900004DC7E /* Equipment */,
+				0427781529FADF810004DC7E /* Consumable */,
+				04223FEC29FD8BFD006DE980 /* Material */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		0422400429FEBEC2006DE980 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				0422400129FEBE8F006DE980 /* StatusView.swift */,
+				042777F829FAAD110004DC7E /* ActionView.swift */,
+				0422400729FEBF13006DE980 /* BattleView.swift */,
+				0422401A2A028978006DE980 /* AttackView.swift */,
+				0422401529FFEE15006DE980 /* ConsumeView */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		0422401529FFEE15006DE980 /* ConsumeView */ = {
+			isa = PBXGroup;
+			children = (
+				0422400529FEBEF6006DE980 /* ConsumeView.swift */,
+				0422401129FFED2D006DE980 /* HealView.swift */,
+				0422401329FFED48006DE980 /* RestoreView.swift */,
+			);
+			path = ConsumeView;
+			sourceTree = "<group>";
+		};
 		042777A429F912990004DC7E = {
 			isa = PBXGroup;
 			children = (
@@ -126,10 +226,8 @@
 			children = (
 				042777DF29F970E20004DC7E /* AFL3-RPG-Bryan-0706012110033-Info.plist */,
 				042777B029F912990004DC7E /* AFL3_RPG_Bryan_0706012110033App.swift */,
-				042777B229F912990004DC7E /* ContentView.swift */,
 				042777E529FA6B470004DC7E /* Resources */,
 				042777E629FA6B560004DC7E /* Model */,
-				042777F329FA6CCD0004DC7E /* Controller */,
 				042777E029F9724C0004DC7E /* View */,
 				0427781B29FAE0E00004DC7E /* Helpers */,
 				042777C029F96F110004DC7E /* Font */,
@@ -172,14 +270,9 @@
 		042777E029F9724C0004DC7E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				042777BE29F947990004DC7E /* SplashScreenView.swift */,
-				042777E129FA4DE60004DC7E /* PrologueView.swift */,
-				042777E329FA69590004DC7E /* PlayView.swift */,
-				042777F829FAAD110004DC7E /* ActionView.swift */,
-				042777FA29FAAD1B0004DC7E /* InventoryView.swift */,
-				0427780629FAAEE60004DC7E /* MenuView.swift */,
-				0427781629FADF900004DC7E /* Equipment */,
-				0427781529FADF810004DC7E /* Consumable */,
+				042777B229F912990004DC7E /* ContentView.swift */,
+				04223FDF29FD58AE006DE980 /* SplashScreen */,
+				04223FDE29FD5885006DE980 /* Play */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +282,8 @@
 			children = (
 				042777E729FA6BFD0004DC7E /* consumableData.json */,
 				0427780F29FAD5CC0004DC7E /* equipmentData.json */,
+				04223FEA29FD8B5F006DE980 /* materialData.json */,
+				0422400D29FEC500006DE980 /* enemyData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -197,19 +292,15 @@
 			isa = PBXGroup;
 			children = (
 				0427780029FAAE7E0004DC7E /* Item.swift */,
-				0427780229FAAE9E0004DC7E /* ModelData.swift */,
 				0427780429FAAEAF0004DC7E /* Player.swift */,
 				0427781129FAD5F10004DC7E /* Equipment.swift */,
 				0427781329FAD5FC0004DC7E /* Consumable.swift */,
+				04223FE229FD8626006DE980 /* Material.swift */,
+				04223FF929FE49E8006DE980 /* Character.swift */,
+				04223FFB29FE49F6006DE980 /* Enemy.swift */,
+				0422400B29FEC27A006DE980 /* EnemyData.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		042777F329FA6CCD0004DC7E /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		0427781529FADF810004DC7E /* Consumable */ = {
@@ -237,6 +328,9 @@
 			children = (
 				0427781C29FAE1150004DC7E /* CircleImage.swift */,
 				0427781E29FAE1250004DC7E /* EquipButton.swift */,
+				0422400F29FFE657006DE980 /* StatusBars.swift */,
+				042240162A000B40006DE980 /* Toast.swift */,
+				042240182A00CB16006DE980 /* EnemyStatusBars.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -309,6 +403,8 @@
 				042777D229F96F680004DC7E /* PixelOperatorHBSC.ttf in Resources */,
 				0427782029FAE7850004DC7E /* consumableData.json in Resources */,
 				0427782129FAE78C0004DC7E /* equipmentData.json in Resources */,
+				04223FEB29FD8B5F006DE980 /* materialData.json in Resources */,
+				0422400E29FEC500006DE980 /* enemyData.json in Resources */,
 				042777D329F96F680004DC7E /* PixelOperatorHB.ttf in Resources */,
 				042777D629F96F680004DC7E /* PixelOperatorMonoHB8.ttf in Resources */,
 				042777B529F9129A0004DC7E /* Assets.xcassets in Resources */,
@@ -328,15 +424,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042240172A000B40006DE980 /* Toast.swift in Sources */,
+				04223FF229FD8C2A006DE980 /* MaterialRow.swift in Sources */,
 				042777B329F912990004DC7E /* ContentView.swift in Sources */,
 				0427780E29FACC1F0004DC7E /* EquipmentView.swift in Sources */,
+				04223FEE29FD8C10006DE980 /* MaterialView.swift in Sources */,
+				0422400829FEBF13006DE980 /* BattleView.swift in Sources */,
 				0427781A29FADFAE0004DC7E /* EquipmentRow.swift in Sources */,
+				04223FFC29FE49F6006DE980 /* Enemy.swift in Sources */,
 				0427780C29FACC120004DC7E /* ConsumableView.swift in Sources */,
+				0422401B2A028978006DE980 /* AttackView.swift in Sources */,
+				0422400229FEBE8F006DE980 /* StatusView.swift in Sources */,
 				042777E229FA4DE60004DC7E /* PrologueView.swift in Sources */,
 				042777B129F912990004DC7E /* AFL3_RPG_Bryan_0706012110033App.swift in Sources */,
+				0422401029FFE657006DE980 /* StatusBars.swift in Sources */,
+				0422400029FEAB65006DE980 /* NameView.swift in Sources */,
+				042240192A00CB16006DE980 /* EnemyStatusBars.swift in Sources */,
+				0422400C29FEC27A006DE980 /* EnemyData.swift in Sources */,
 				042777E429FA69590004DC7E /* PlayView.swift in Sources */,
 				042777FD29FAAD390004DC7E /* ConsumableRow.swift in Sources */,
+				04223FF029FD8C1F006DE980 /* MaterialDetail.swift in Sources */,
+				04223FE329FD8626006DE980 /* Material.swift in Sources */,
+				0422400629FEBEF6006DE980 /* ConsumeView.swift in Sources */,
 				0427781229FAD5F10004DC7E /* Equipment.swift in Sources */,
+				0422401229FFED2D006DE980 /* HealView.swift in Sources */,
+				04223FFA29FE49E8006DE980 /* Character.swift in Sources */,
 				0427780529FAAEAF0004DC7E /* Player.swift in Sources */,
 				0427780729FAAEE60004DC7E /* MenuView.swift in Sources */,
 				0427781429FAD5FC0004DC7E /* Consumable.swift in Sources */,
@@ -345,10 +457,10 @@
 				0427781F29FAE1250004DC7E /* EquipButton.swift in Sources */,
 				042777FF29FAAD4D0004DC7E /* ConsumableDetail.swift in Sources */,
 				042777F929FAAD110004DC7E /* ActionView.swift in Sources */,
+				0422401429FFED48006DE980 /* RestoreView.swift in Sources */,
 				0427781D29FAE1150004DC7E /* CircleImage.swift in Sources */,
 				042777FB29FAAD1B0004DC7E /* InventoryView.swift in Sources */,
 				0427781829FADFA40004DC7E /* EquipmentDetail.swift in Sources */,
-				0427782229FAE7910004DC7E /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

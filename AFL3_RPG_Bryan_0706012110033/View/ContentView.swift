@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var showSplash = true
     @State private var isShowingConfirmation = false
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var enemyData: EnemyData
     
     var body: some View {
         NavigationView {
@@ -68,8 +68,11 @@ struct ContentView: View {
                 }
                 .padding()
                 .opacity(showSplash ? 0 : 1)
-                .animation(.easeOut(duration: 0.5).delay(0.5))
-                
+                .animation(
+                    .easeInOut(duration: 0.3)
+                    ,value: 1
+                )
+               
                 if showSplash {
                     SplashScreen()
                     .onAppear {
@@ -92,7 +95,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(ModelData())
+            .environmentObject(EnemyData())
     }
 }
 

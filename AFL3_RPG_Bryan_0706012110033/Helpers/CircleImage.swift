@@ -14,16 +14,12 @@ struct CircleImage: View {
         image
             .resizable()
             .aspectRatio(contentMode: .fit)
-            .frame(height: 150)
+            .frame(width: 150, height: 150)
             .clipShape(Circle())
             .overlay(Circle().stroke(.white, lineWidth: 4))
             .shadow(radius: 7)
             .background(Circle().foregroundColor(.white))
     }
-
-
-
-    
 }
 
 struct CircleImage_Previews: PreviewProvider {

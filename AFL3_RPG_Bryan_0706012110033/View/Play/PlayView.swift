@@ -6,14 +6,23 @@
 //
 
 import SwiftUI
-//this is play view which show what user can do
+
+// this is play view which show what user can do
 struct PlayView: View {
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var modelData: Player
 
     @State private var selection: Tab = .action
+
+    init() {
+        let appearance = UITabBar.appearance()
+        appearance.barTintColor = .black
+        let attributes = [NSAttributedString.Key.font: UIFont(name: "PixelOperator", size: 20)!]
+            UITabBarItem.appearance().setTitleTextAttributes(attributes, for: .normal)
+    }
+
     enum Tab {
         case action, inventory, menu
-        
+
         var title: String {
             switch self {
             case .action:
@@ -24,7 +33,7 @@ struct PlayView: View {
                 return "Menu"
             }
         }
-        
+
         var image: String {
             switch self {
             case .action:
@@ -35,8 +44,6 @@ struct PlayView: View {
                 return "list.bullet"
             }
         }
-        
-        
     }
 
     var body: some View {
@@ -45,29 +52,36 @@ struct PlayView: View {
                 .tabItem {
                     Label(Tab.action.title, systemImage: Tab.action.image)
                         .foregroundColor(.white)
+                        
                 }
                 .tag(Tab.action)
             InventoryView()
                 .tabItem {
                     Label(Tab.inventory.title, systemImage: Tab.inventory.image)
                         .foregroundColor(.white)
+                        
                 }
                 .tag(Tab.inventory)
             MenuView()
                 .tabItem {
                     Label(Tab.menu.title, systemImage: Tab.menu.image)
                         .foregroundColor(.white)
+                      
                 }
                 .tag(Tab.menu)
         }
-        .accentColor(.blue)
+        .accentColor(.yellow)
+        
     }
 }
+
+
 
 
 struct PlayView_Previews: PreviewProvider {
     static var previews: some View {
         PlayView()
-            .environmentObject(ModelData())
+            .environmentObject(Player(name: "WanSen"))
+            .environmentObject(EnemyData())
     }
 }

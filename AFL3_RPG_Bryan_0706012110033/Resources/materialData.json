@@ -1,0 +1,47 @@
+[
+    {
+        
+        "name": "Troll Staff",
+        "type": "Troll",
+        "id": 1014,
+        "owned": 0,
+        "price": 20,
+        "description": "The Troll's Staff",
+        "imageName": "trollstaf"
+       
+    },
+    {
+        
+        "name": "Troll Sword",
+        "type": "Troll",
+        "id": 1015,
+        "owned": 0,
+        "price": 10,
+        "description": "The Troll's Sword",
+        "imageName": "trollsword"
+       
+    },
+    {
+        
+        "name": "Crystal",
+        "type": "Golem",
+        "id": 1016,
+        "owned": 0,
+        "price": 50,
+        "description": "The Golem's Crystal",
+        "imageName": "crystal"
+       
+    },
+    {
+        
+        "name": "Stone",
+        "type": "Golem",
+        "id": 1017,
+        "owned": 0,
+        "price": 1,
+        "description": "The Stone",
+        "imageName": "stone"
+       
+    },
+]
+

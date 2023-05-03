@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//this is equipbutton that will be used for equipmentdetail
 struct EquipButton: View {
     @Binding var isSet: Bool
     var action: (() -> Void)?
@@ -16,12 +16,20 @@ struct EquipButton: View {
             isSet.toggle()
             action?()
         }, label: {
-            Label(isSet ? "Equipped" : "Not Equipped", systemImage: isSet ? "checkmark.circle.fill" : "xmark.circle.fill")
-                .labelStyle(.iconOnly)
-                .foregroundColor(isSet ? .green : .red)
+            GeometryReader { geometry in
+                Text(isSet ? "Unequip" : "Equip")
+                    .font(.custom("PixelOperator", size: 20))
+                    .foregroundColor(.white)
+                    .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
+                    .fixedSize()
+                    .background(isSet ? Color.red : Color.green)
+                    .cornerRadius(10)
+            }
         })
+        .frame(width: 100, height: 35, alignment: .center)
     }
 }
+
 
 
 
