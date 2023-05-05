@@ -154,6 +154,13 @@ struct AttackView: View {
                                     }
                                     player.mana -= 10
                                     player.objectWillChange.send()
+                                    player.objectWillChange.send()
+                                        if player.health <= 0 {
+                                            enemyData.enemies[enemyIndex].health = enemyData.enemies[enemyIndex].maxHealth
+                                            presentationMode.wrappedValue.dismiss()
+                                            isShowingLoseModal = true}
+                                                                
+                                    
                                 }
                             }) {
                                 Text("Scan")
@@ -170,6 +177,7 @@ struct AttackView: View {
                                             .stroke(Color.white, lineWidth: 2)
                                     )
                             }
+                            .disabled(player.mana < 10)
                             
                             Spacer()
                         }
